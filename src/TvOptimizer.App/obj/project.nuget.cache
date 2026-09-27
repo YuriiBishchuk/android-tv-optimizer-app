@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rsfMxA5cTaM=",
+  "success": true,
+  "projectFilePath": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.App/TvOptimizer.App.csproj",
+  "expectedPackageFiles": [
+    "/home/astellias/DistroBox/FedoraDevBox/.nuget/packages/microsoft.net.illink.tasks/10.0.11/microsoft.net.illink.tasks.10.0.11.nupkg.sha512",
+    "/home/astellias/DistroBox/FedoraDevBox/.nuget/packages/microsoft.netcore.app.ref/10.0.12/microsoft.netcore.app.ref.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

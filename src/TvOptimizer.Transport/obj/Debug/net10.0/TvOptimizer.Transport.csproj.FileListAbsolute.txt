@@ -1,0 +1,15 @@
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/bin/Debug/net10.0/TvOptimizer.Transport.deps.json
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/bin/Debug/net10.0/TvOptimizer.Transport.dll
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/bin/Debug/net10.0/TvOptimizer.Transport.pdb
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/bin/Debug/net10.0/TvOptimizer.Core.dll
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/bin/Debug/net10.0/TvOptimizer.Core.pdb
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/TvOptimizer.Transport.csproj.AssemblyReference.cache
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/TvOptimizer.Transport.GeneratedMSBuildEditorConfig.editorconfig
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/TvOptimizer.Transport.AssemblyInfoInputs.cache
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/TvOptimizer.Transport.AssemblyInfo.cs
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/TvOptimizer.Transport.csproj.CoreCompileInputs.cache
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/TvOptimi.50EA590F.Up2Date
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/TvOptimizer.Transport.dll
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/refint/TvOptimizer.Transport.dll
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/TvOptimizer.Transport.pdb
+/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app/src/TvOptimizer.Transport/obj/Debug/net10.0/ref/TvOptimizer.Transport.dll

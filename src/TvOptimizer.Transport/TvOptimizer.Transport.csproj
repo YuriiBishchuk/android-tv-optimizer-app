@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TvOptimizer</RootNamespace>
+    <AssemblyName>TvOptimizer.Transport</AssemblyName>
+    <Version>0.1.0</Version>
+    <Description>Minimal ADB-over-TCP transport written from scratch (no 3rd-party ADB libs). CNXN/AUTH/OPEN/WRTE/CLSE + shell.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TvOptimizer.Core\TvOptimizer.Core.csproj" />
+  </ItemGroup>
+
+</Project>
