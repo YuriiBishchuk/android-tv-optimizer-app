@@ -1,0 +1,90 @@
+[
+  {
+    "id": "tvopt-1",
+    "title": "Setup Android SDK & build environment",
+    "body": "Install Android SDK (cmdline-tools, platform-tools, emulator, build-tools 34.0.0, platform 34) and verify dotnet build works for net10.0-android. Run `dotnet build src/TvOptimizer.App/TvOptimizer.App.csproj` successfully.",
+    "status": "todo",
+    "labels": ["setup", "android-sdk", "build"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-2",
+    "title": "Implement ADB connection flow (ConnectPage)",
+    "body": "Complete ConnectPage implementation: IP/port input, TLS toggle, pairing code support, connection status display, error handling. Test with real Android TV device via Wireless Debugging.",
+    "status": "todo",
+    "labels": ["ui", "adb", "connect", "connectpage"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-3",
+    "title": "Implement Audit engine UI (AuditPage)",
+    "body": "Complete AuditPage: refresh button, package list display, tier coloring (TIER_1=green, TIER_2=yellow, HEURISTIC=orange, PROTECTED=red, UNIDENTIFIED=gray), details modal, apply-all button with confirmation dialog.",
+    "status": "todo",
+    "labels": ["ui", "audit", "auditpage", "tier-display"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-4",
+    "title": "Implement Tweaks UI (TweaksPage)",
+    "body": "Complete TweaksPage: load current settings via ADB shell, display animation scales/background/doze, allow selection, apply selected tweaks via settings put global/deviceidle commands, refresh after apply.",
+    "status": "todo",
+    "labels": ["ui", "tweaks", "tweakspage", "settings"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-5",
+    "title": "ConfigSync: GitHub raw fetch + local cache",
+    "body": "Implement ConfigSync service: fetch device configs and curated lists from GitHub raw URLs, cache in AppDataDirectory with TTL (7 days), fallback to cache when offline, match device by fingerprint (model/brand).",
+    "status": "todo",
+    "labels": ["core", "config", "sync", "cache"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-6",
+    "title": "TLS ADB support & RSA auth verification",
+    "body": "Verify AdbClient TLS support works with Android TV pairing: test certificate validation, RSA key exchange, AUTH token flow. Ensure both plain TCP and TLS modes work reliably.",
+    "status": "todo",
+    "labels": ["transport", "tls", "adb", "security"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-7",
+    "title": "Low-resource emulator test (CI)",
+    "body": "Run `scripts/test-emulator-low.sh` to create minimal AVD (1GB RAM, no GPU, SwiftShader, no audio) and deploy app. Verify app launches, ADB connection works, basic UI responsive on constrained emulator.",
+    "status": "todo",
+    "labels": ["test", "emulator", "ci", "low-resource"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-8",
+    "title": "Real device testing on Android TV",
+    "body": "Test full flow on physical Android TV (Xiaomi A Pro 2026 or similar): Wireless Debugging pairing → ConnectPage → AuditPage → TweaksPage. Verify all tweaks apply correctly and can be reverted.",
+    "status": "todo",
+    "labels": ["test", "device", "integration", "xiaomi"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-9",
+    "title": "Guard safety rules integration test",
+    "body": "Verify Guard class (NeverTouch, UniversalProtected, UniversalSafe) correctly blocks dangerous packages in audit engine. Test edge cases: system apps, launcher, telemetry, video stack packages.",
+    "status": "todo",
+    "labels": ["test", "safety", "guard", "audit"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-10",
+    "title": "UI polish: Material3, theming, accessibility",
+    "body": "Apply Material3 theming: consistent colors, typography, dark mode support, RTL support, accessibility labels. Add loading states, empty states, error banners. Polish Connect/Audit/Tweaks pages.",
+    "status": "todo",
+    "labels": ["ui", "polish", "material3", "accessibility"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  },
+  {
+    "id": "tvopt-11",
+    "title": "Release build: signed APK & GitHub Actions CI",
+    "body": "Configure signing (keystore, credentials), create GitHub Actions workflow: build -> test on low-resource emulator -> sign -> upload artifact. Version bump to 0.1.0.",
+    "status": "todo",
+    "labels": ["release", "ci", "signing", "github-actions"],
+    "workspace_path": "/run/host/home/astellias/Projects/external hdd/android-tv-optimizer-app"
+  }
+]

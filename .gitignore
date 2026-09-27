@@ -1,0 +1,19 @@
+# .NET / build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+
+# Android / MAUI
+*.apk
+*.aab
+*.keystore
+Resources/Raw/
+.vs/
+.vscode/
+
+# local evidence / logs
+out/
+*.log
