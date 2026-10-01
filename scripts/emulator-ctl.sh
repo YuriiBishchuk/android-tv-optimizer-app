@@ -64,8 +64,8 @@ cmd_start() {
         -no-window \
         -no-audio \
         -no-boot-anim \
-        -gpu swiftshader_indirect \
-        -read-only \
+        -gpu angle_indirect \
+        -no-snapshot \
         > "/tmp/emu_${avd_name}.log" 2>&1 &
 
     local emu_pid=$!
